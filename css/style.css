@@ -3,10 +3,54 @@ nav{
   background-color: #283850;
 }
 
+/*JUMBOTRON*/
 .jumbotron-freelancer{
   background-color: #68c8b0;
-  height: 350px;
+  height: 400px;
+  color: #fff;
+  padding: 20px 20px;
 }
+
+.jumbotron-container{
+  text-align: center;
+}
+
+
+
+.jumbotron-container  img{
+  width: 200px;
+  height: 200px;
+}
+
+.fa.fa-star{
+  font-size: 25px;
+
+}
+
+.jumbotron-freelancer .jumbotron-container .fa.fa-star:after{
+  content: '';
+  display: inline-block;
+  height: 3px;
+  background-color: #fff;
+  width: 40px;
+  margin-bottom: 8px;
+  margin-left: 6px;
+  border-radius: 2px;
+}
+
+.jumbotron-freelancer .jumbotron-container .fa.fa-star:before{
+  content: '';
+  display: inline-block;
+  height: 3px;
+  background-color: #fff;
+  width: 40px;
+  margin-bottom: 8px;
+  margin-right: 36px;
+  border-radius: 2px;
+}
+
+
+/*END JUMBOTRON*/
 
 
 .portfolio{
