@@ -144,8 +144,11 @@ nav{
   text-align: center;
 }
 
+.form-control{
+  text-align: left;
+}
 
-/*CONTACT-ME*/
+/*  END CONTACT-ME*/
 
 footer{
 
@@ -155,18 +158,16 @@ footer{
   color: #fff;
 }
 
-footer .container .row:nth-of-type(2){
-  margin: 40px 0;
+footer .container .row:first-of-type{
+  margin: 30px 0;
 }
 
-footer .container .row:nth-of-type(2) i{
-  font-size: 25px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
+ footer .container .row .col-xs-12:nth-of-type(2) h4,
+ footer .container .row .col-xs-12:nth-of-type(3) h4{
+  margin-top: 40px;
 }
+
+
 
 .icon-container{
   display: inline-block;
@@ -179,6 +180,14 @@ footer .container .row:nth-of-type(2) i{
   margin-right: 5px;
 }
 
+.icon-container i{
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 footer a{
   color: #68c8b0;
 }
@@ -188,13 +197,20 @@ footer a:hover{
   text-decoration: none;
 }
 
-footer .container .row:last-child{
-  background-color: #304048;
-  margin-top: 60px;
+
+
+.last-row{
+  background-color: #283850;
   height: 120px;
+  margin: 0;
+
 }
 
-footer .container .row:last-child p{
+footer .row:last-child{
+  margin: 0;
+}
+
+.last-row p{
   line-height: 120px;
   margin: 0;
 }
