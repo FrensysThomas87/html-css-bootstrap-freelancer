@@ -28,7 +28,7 @@ nav{
 
 }
 
-.jumbotron-freelancer .jumbotron-container .star-container:after{
+.star-container:after{
   content: '';
   display: inline-block;
   height: 3px;
@@ -39,7 +39,7 @@ nav{
   border-radius: 2px;
 }
 
-.jumbotron-freelancer .jumbotron-container .star-container:before{
+.star-container:before{
   content: '';
   display: inline-block;
   height: 3px;
@@ -71,7 +71,7 @@ nav{
   margin-top: 20px;
 }
 
-.star-container:before{
+.portfolio .container .star-container:before{
   content: '';
   display: inline-block;
   height: 3px;
@@ -82,7 +82,7 @@ nav{
   background-color: #333;
 }
 
-.star-container:after{
+.portfolio .container .star-container:after{
   content: '';
   display: inline-block;
   height: 3px;
@@ -105,9 +105,7 @@ nav{
   border-radius: 6px;
 }
 
-.row{
-  margin: 0 0;
-}
+
 /*END PORTFOLIO*/
 
 
