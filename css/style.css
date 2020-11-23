@@ -25,9 +25,10 @@ nav{
 .fa.fa-star{
   font-size: 25px;
 
+
 }
 
-.jumbotron-freelancer .jumbotron-container .fa.fa-star:after{
+.jumbotron-freelancer .jumbotron-container .star-container:after{
   content: '';
   display: inline-block;
   height: 3px;
@@ -38,17 +39,21 @@ nav{
   border-radius: 2px;
 }
 
-.jumbotron-freelancer .jumbotron-container .fa.fa-star:before{
+.jumbotron-freelancer .jumbotron-container .star-container:before{
   content: '';
   display: inline-block;
   height: 3px;
   background-color: #fff;
   width: 40px;
   margin-bottom: 8px;
-  margin-right: 36px;
+  margin-right: 6px;
   border-radius: 2px;
+
 }
 
+.jumbotron-freelancer .jumbotron-container h3{
+  font-size: 13px;
+}
 
 /*END JUMBOTRON*/
 
