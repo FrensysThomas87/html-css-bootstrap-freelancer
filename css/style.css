@@ -19,7 +19,7 @@ nav{
 
 .jumbotron-container  img{
   width: 200px;
-  height: 200px;
+
 }
 
 .fa.fa-star{
@@ -57,11 +57,59 @@ nav{
 
 /*END JUMBOTRON*/
 
-
+/*PORTFOLIO*/
 .portfolio{
-  height: 400px;
+  text-align: center;
   background-color: #fff;
 }
+
+.portfolio h3{
+  margin-top: 40px;
+}
+
+.portfolio .star-container{
+  margin-top: 20px;
+}
+
+.star-container:before{
+  content: '';
+  display: inline-block;
+  height: 3px;
+  width: 40px;
+  margin-bottom: 8px;
+  margin-left: 6px;
+  border-radius: 2px;
+  background-color: #333;
+}
+
+.star-container:after{
+  content: '';
+  display: inline-block;
+  height: 3px;
+  width: 40px;
+  margin-bottom: 8px;
+  margin-right: 6px;
+  border-radius: 2px;
+  background-color: #333;
+}
+
+.images-portfolio{
+  margin: 15px 0;
+}
+
+.images-portfolio:last-child{
+  margin-bottom: 50px;
+}
+.images-portfolio img{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.row{
+  margin: 0 0;
+}
+/*END PORTFOLIO*/
+
 
 
 .about{
