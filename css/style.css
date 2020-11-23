@@ -67,7 +67,7 @@ nav{
   margin-top: 40px;
 }
 
-.portfolio .star-container{
+.star-container{
   margin-top: 20px;
 }
 
@@ -97,9 +97,7 @@ nav{
   margin: 15px 0;
 }
 
-.images-portfolio:last-child{
-  margin-bottom: 50px;
-}
+
 .images-portfolio img{
   width: 100%;
   border-radius: 6px;
@@ -109,11 +107,31 @@ nav{
 /*END PORTFOLIO*/
 
 
-
+/*ABOUT*/
 .about{
   background-color: #68c8b0;
-  height: 300px;
+  text-align: center;
+  color: #fff;
+  padding: 25px 20px;;
+  margin-top: 30px;
 }
+
+.about-desc-container{
+  padding: 0 67px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.fa.fa-download{
+  margin-right: 3px;
+}
+
+.btn.btn-primary{
+  background-color: inherit;
+  border: 1px solid #fff;
+}
+
+/*END ABOUT*/
 
 .contact-me{
   height:350px;
