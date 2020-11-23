@@ -1,3 +1,6 @@
+
+
+
 nav{
   height: 80px;
   background-color: #283850;
@@ -5,7 +8,7 @@ nav{
 
 /*JUMBOTRON*/
 .jumbotron-freelancer{
-  background-color: #68c8b0;
+  background-color: #18b098;
   height: 400px;
   color: #fff;
   padding: 20px 20px;
@@ -24,8 +27,6 @@ nav{
 
 .fa.fa-star{
   font-size: 25px;
-
-
 }
 
 .star-container:after{
@@ -111,7 +112,7 @@ nav{
 
 /*ABOUT*/
 .about{
-  background-color: #68c8b0;
+  background-color: #18b098;
   text-align: center;
   color: #fff;
   padding: 25px 20px;;
@@ -147,13 +148,53 @@ nav{
 /*CONTACT-ME*/
 
 footer{
-  height: 200px;
+
   background-color: #385068;
-  padding: 30px 20px;
+  padding-top: 20px;
   text-align: center;
   color: #fff;
 }
 
 footer .container .row:nth-of-type(2){
-  margin-top: 40px;
+  margin: 40px 0;
+}
+
+footer .container .row:nth-of-type(2) i{
+  font-size: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.icon-container{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 30px;
+  position: relative;
+  margin-right: 5px;
+}
+
+footer a{
+  color: #68c8b0;
+}
+
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .container .row:last-child{
+  background-color: #304048;
+  margin-top: 60px;
+  height: 120px;
+}
+
+footer .container .row:last-child p{
+  line-height: 120px;
+  margin: 0;
 }
