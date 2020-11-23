@@ -1,0 +1,31 @@
+nav{
+  height: 80px;
+  background-color: #283850;
+}
+
+.jumbotron-freelancer{
+  background-color: #68c8b0;
+  height: 350px;
+}
+
+
+.portfolio{
+  height: 400px;
+  background-color: #fff;
+}
+
+
+.about{
+  background-color: #68c8b0;
+  height: 300px;
+}
+
+.contact-me{
+  height:350px;
+  background-color: #fff;
+}
+
+footer{
+  height: 200px;
+  background-color: #385068;
+}
