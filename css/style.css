@@ -7,7 +7,10 @@
   margin-bottom: 0;
   border: 0;
   border-radius: 0;
+
 }
+
+
 
 .bl-navbar .navbar-toggle{
   margin-top: 23px;
@@ -168,6 +171,7 @@
 
 .bl-form .form-control{
   padding: 0;
+  box-shadow: none;
 }
 
 .bl-form ::placeholder{
@@ -178,6 +182,18 @@
 .bl-form .form-group textarea{
   border: 0;
   border-bottom: 1px solid #ccc;
+}
+
+.bl-form .btn{
+  margin-bottom: 30px;
+  display: block;
+  background-color: #18b098;
+  padding: 10px 15px;
+  font-weight: 700;
+}
+
+.bl-form .btn-success:hover{
+  border-color: #000;
 }
 
 /*  END CONTACT-ME*/
