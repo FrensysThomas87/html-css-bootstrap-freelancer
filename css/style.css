@@ -1,10 +1,33 @@
 
 
-
-nav{
+/*NAVBAR*/
+.bl-navbar{
   height: 80px;
   background-color: #283850;
+  margin-bottom: 0;
+  border: 0;
 }
+
+.bl-navbar .navbar-toggle{
+  margin-top: 23px;
+}
+
+
+
+
+.bl-navbar .navbar-brand,
+.bl-navbar .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a{
+  color: #fff;
+  height: 80px;
+  line-height: 50px;
+
+}
+
+.bl-navbar .navbar-brand:hover,
+.bl-navbar .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  color: #18b098;
+}
+/*END NAVBAR*/
 
 /*JUMBOTRON*/
 .jumbotron-freelancer{
