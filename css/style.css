@@ -6,6 +6,7 @@
   background-color: #283850;
   margin-bottom: 0;
   border: 0;
+  border-radius: 0;
 }
 
 .bl-navbar .navbar-toggle{
@@ -13,14 +14,16 @@
 }
 
 .bl-navbar .navbar-brand,
-.bl-navbar .navbar-nav > li > a:focus, .bl-navbar.navbar-default .navbar-nav > li > a{
+.bl-navbar .navbar-nav > li > a:focus,
+.bl-navbar.navbar-default .navbar-nav > li > a{
   color: #fff;
   line-height: 50px;
 
 }
 
 .bl-navbar .navbar-brand:hover,
-.bl-navbar .navbar-nav > li > a:focus, .bl-navbar.navbar-default .navbar-nav > li > a:hover{
+.bl-navbar .navbar-nav > li > a:focus,
+.bl-navbar.navbar-default .navbar-nav > li > a:hover{
   color: #18b098;
 }
 /*END NAVBAR*/
@@ -163,8 +166,18 @@
   text-align: center;
 }
 
-.form-control{
-  text-align: left;
+.bl-form .form-control{
+  padding: 0;
+}
+
+.bl-form ::placeholder{
+  color: #333;
+}
+
+.bl-form .form-group input,
+.bl-form .form-group textarea{
+  border: 0;
+  border-bottom: 1px solid #ccc;
 }
 
 /*  END CONTACT-ME*/
