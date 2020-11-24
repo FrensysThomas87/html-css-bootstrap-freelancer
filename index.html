@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="fluid-container">
+    <div class="container-fluid">
       <!-- header -->
-      <header>
+      <header class="row">
         <!-- Static navbar -->
         <nav class="navbar navbar-default bl-navbar ">
           <div class="container">
@@ -38,11 +38,11 @@
 
       <main>
         <!-- jumbotron -->
-        <section class="jumbotron-freelancer">
+        <section class="jumbotron-freelancer bg-green row">
           <div class="jumbotron-container">
             <img src="img/avataaars.svg" alt="Avatar">
             <h1><strong>START BOOTSTRAP</strong></h1>
-            <div class="star-container">
+            <div class="star-container star-white">
               <i class="fa fa-star" aria-hidden="true"></i>
             </div>
             <h3><strong>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</strong></h3>
@@ -51,11 +51,11 @@
         <!--end jumbotron -->
 
         <!-- portfolio -->
-        <section class="portfolio">
+        <section class="portfolio row">
           <h3><strong>PORTFOLIO</strong></h3>
           <div class="container">
             <div class="row">
-              <div class="star-container">
+              <div class="star-container star-dark">
                 <i class="fa fa-star" aria-hidden="true"></i>
               </div>
               <div class="portfolio-images-container">
@@ -84,40 +84,44 @@
         <!--end portfolio -->
 
         <!-- about -->
-        <section class="about">
-          <h3>ABOUT</h3>
-          <div class="star-container">
+        <section class="about bg-green row">
+          <div class="container">
+            <h3>ABOUT</h3>
+          <div class="star-container star-white">
             <i class="fa fa-star" aria-hidden="true"></i>
           </div>
-            <div class="container">
-              <div class="row">
-                <div class="about-desc-container col-xs-12 col-sm-6 ">
-                  <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+
+          <div class="row">
+            <div class="about-desc-container col-xs-12 col-sm-6 ">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download
                     includes the complete suorce files including HTML, CSS,
                     and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="about-desc-container col-xs-12 col-sm-6">
-                  <p>Whether you're a student looking to showcase your work, a professional
+            </div>
+            <div class="about-desc-container col-xs-12 col-sm-6">
+              <p>Whether you're a student looking to showcase your work, a professional
                     looking to attract clients, or a graphic artists looking
                     to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Download</button>
-              </div>
             </div>
-          </section>
-        <!--end about -->
+            <button type="button" class="btn btn-primary "><i class="fa fa-download"></i>Download</button>
 
-        <!-- contact-me -->
-  <section class="contact-me">
+
+            </div>
+          </div>
+        </section>
+<!--end about -->
+
+<!-- contact-me -->
+<div class="container">
+  <section class="contact-me row">
     <h3><strong>CONTACT ME</strong></h3>
-    <div class="star-container">
+    <div class="star-container star-dark">
       <i class="fa fa-star" aria-hidden="true"></i>
     </div>
 
 
-    <div class="container">
-      <div class="row">
+    <div class="row">
             <!-- form -->
+      <div class="col-xs-12">
         <form class="bl-form" action="page">
 
           <div class="form-group">
@@ -139,13 +143,15 @@
         </form>
         <!--end form -->
       </div>
+
     </div>
   </section>
+</div>
         <!--end contact-me -->
       </main>
 
       <!-- footer -->
-      <footer>
+      <footer class="row">
          <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4">
@@ -180,9 +186,7 @@
         <div class="row last-row">
           <p><strong>Copyright &copy; Your Website 2019</strong></p>
         </div>
-
-
-    </footer>
+      </footer>
       <!--end footer -->
     </div>
 
